@@ -48,13 +48,12 @@ a {
     color: #F9FAF8;
 }
 
-.body {
+.body-top {
     display: flex;
     background-color: #1F2937;
-    
+    gap: 20px;
     align-items: center;
     width: 100%; /* Set width to 100% */
-    
     padding-left: 50px;
 }
 
@@ -92,9 +91,114 @@ button {
     width: fit-content;
     background-color: #3882F6;
     border-radius: 6px;
+    width: 70px;
+    height: 20px;
+    color: #E5E7EB;
+    font-weight: bold;
 }
 
 .body-content {
     font-size: 18px;
     color:#F9FAF8
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.ind-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid #3882F6;
+}
+
+.pic-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.quote-words {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.end {
+    
+    display: flex;
+    gap: 20px;
+    height: 150px;
+    width: 700px;
+    color:#E5E7EB;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+    background-color: #3882F6 ;
+    border-radius: 10px;
+}
+
+.end-left {
+    display: flex;
+    flex-direction: column;    
+}
+
+.end-left-top {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    font-size: small;
+    color: #E5E7EB;
+    padding: 20px;
+    background-color:#1F2937;
+    justify-content: center;
+    align-items: center;
 }
